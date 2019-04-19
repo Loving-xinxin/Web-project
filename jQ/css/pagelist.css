@@ -1,0 +1,682 @@
+section .innovative {
+    width: 100%;
+    height: 390px;
+    background-image: url(../images/banner3.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 101%;
+    background-size: 101%;
+    background-position: 85% 25%;
+
+}
+
+section .innovative .contain {
+    padding-left: 15px;
+    padding-top: 100px;
+}
+
+section .innovative .contain span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+section .innovative .contain h3 {
+    color: #fff;
+    font-size: 86px;
+    font-weight: bold;
+}
+
+section .innovative .contain p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section .main .contain {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+section .main .left {
+    width: 250px;
+    padding-top: 100px;
+    padding-right: 30px;
+    /*padding-bottom:2629px;*/
+}
+
+section .main .left .categories h4 {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section .main .left .categories ul {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+
+section .main .left .categories ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+section .main .left .categories ul li a {
+    font-size: 14px;
+    color: #777;
+    float: left;
+}
+
+section .main .left .categories ul li a:hover,
+section .main .left .categories ul li span:hover {
+    color: #3bb18f;
+}
+
+section .main .left .categories ul li span {
+    font-size: 14px;
+    color: #777;
+    float: right;
+}
+
+section .main .left .pricing {
+    padding-bottom: 40px;
+    margin-top: 30px;
+    border-bottom:1px solid #ddd;
+}
+
+section .main .left .pricing h3 {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+section .main .left .brand{
+    margin-top: 30px;
+}
+section .main .left .brand h4 {
+    margin-bottom: 15px;
+}
+
+section .main .left .brand ul {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+
+section .main .left .brand ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+section .main .left .brand ul .checkbox>input {
+    display: none;
+}
+
+section .main .left .brand ul .checkbox>.show-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+section .main .left .brand ul .checkbox input[type='checkbox']:checked+.show-icon {
+    color: #3bb18f;
+}
+
+section .main .left .brand ul li .checkbox .word {
+    margin-left: 5px;
+}
+
+section .main .left .brand ul li .checkbox .num {
+    float: right;
+}
+
+/*size*/
+section .main .left .size{
+    margin-top: 30px;
+}
+section .main .left .size h4 {
+    margin-bottom: 15px;
+}
+
+section .main .left .size ul {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+
+section .main .left .size ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+section .main .left .size ul .checkbox>input {
+    display: none;
+}
+
+section .main .left .size ul .checkbox>.show-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+section .main .left .size ul .checkbox input[type='checkbox']:checked+.show-icon {
+    color: #3bb18f;
+}
+
+section .main .left .size ul li .checkbox .word {
+    margin-left: 5px;
+}
+
+section .main .left .size ul li .checkbox .num {
+    float: right;
+}
+
+section .main .left .color {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section .main .left .color h4 {
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 18px;
+}
+
+section .main .left .color .list>label {
+    margin-right: 8px;
+}
+
+section .main .left .color .list>label input {
+    display: none;
+}
+
+section .main .left .color .list>label span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+section .main .left .color .list>label:nth-child(1) span {
+
+    background-color: #3bb18f;
+    /*border:1px solid #3bb18f;*/
+}
+
+section .main .left .color .list>label:nth-child(2) span {
+
+    background-color: #e5e1de;
+    /*border:1px solid #e5e1de;*/
+}
+
+section .main .left .color .list>label:nth-child(3) span {
+
+    background-color: #000;
+    /*border:1px solid #000;*/
+}
+
+section .main .left .color .list>label:nth-child(4) span {
+
+    background-color: #ffc107;
+    /*border:1px solid #ffc107;*/
+}
+
+section .main .left .color .list>label:nth-child(5) span {
+
+    background-color: #3398dc;
+    /*border:1px solid #3398dc;*/
+}
+
+section .main .left .color .list>label:nth-child(6) span {
+
+    background-color: #9a69cb;
+    /*border:1px solid #9a69cb;*/
+}
+
+section .main .left .color .list>label:nth-child(7) span {
+
+    background-color: #9c8061;
+    /*border:1px solid #9c8061;*/
+}
+
+section .main .left .color .list>label:nth-child(8) span {
+
+    background-color: #777;
+    /*border:1px solid #777;*/
+}
+
+/*---------------------------------------*/
+.rating-stars {
+    width: 100%;
+    text-align: center;
+}
+
+.rating-stars .rating-stars-container {
+    font-size: 0px;
+}
+
+.rating-stars .rating-stars-container .rating-star {
+    display: inline-block;
+    font-size: 25px;
+    color: #555555;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.rating-stars .rating-stars-container .rating-star.is--active,
+.rating-stars .rating-stars-container .rating-star.is--hover {
+    color: #f1c40f;
+}
+
+.rating-stars .rating-stars-container .rating-star.is--no-hover {
+    color: #555555;
+}
+
+/*----------------------------------*/
+section .main .left .star {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section .main .left .star h4 {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 18px;
+}
+
+section .main .left .resent {
+    width: 240px;
+    display: block;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 43px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+section .main .left,
+section .main .right {
+    float: left;
+}
+
+section .main .right {
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
+
+section .main .right .top {
+    padding: 50px 0px 50px 400px;
+    border-bottom: 1px solid #ddd;
+}
+
+section .main .right .top h2 {
+    font-size: 14px;
+    color: #000;
+    float: left;
+}
+
+section .main .right .top .show {
+    position: relative;
+}
+
+section .main .right .top .show>button {
+    display: inline-block;
+    width: 50px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #777;
+    float: left;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: 5px;
+    color: #777;
+}
+
+section .main .right .top .show>button .fa-angle-down {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+section .main .right .top .show>div {
+    width: 210px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    position: absolute;
+    top: -127px;
+    left: 49px;
+    padding-left: 10px;
+    display: none;
+}
+
+section .main .right .top .show>div>a {
+    font-size: 14px;
+    color: #777;
+    display: block;
+    text-align: left;
+    line-height: 25px;
+}
+
+section .main .right .top .show:nth-child(1),
+section .main .right .top .show:nth-child(2),
+section .main .right .top .nav-list {
+    float: left;
+}
+
+section .main .right .top .show:nth-child(2) {
+    margin-left: 50px;
+}
+
+section .main .right .top .show:nth-child(2)>button {
+    width: 100px;
+}
+
+section .main .right .top .show:nth-child(2)>div {
+    width: 208px;
+    left: 67px;
+    top: 28px;
+}
+
+section .main .right .top .nav-list {
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+section .main .right .top .nav-list>a {
+    display: inline-block;
+    padding:5px;
+    border: 1px solid #ddd;
+}
+section .main .right .top .nav-list  .border{
+     border:1px solid #3bb18f;
+}
+section .main .right .top .nav-list .iconfont {
+    text-align: center;
+    color: #777;
+    font-size: 18px;
+}
+section .main .right .top .nav-list .iconfont .color{
+    color:#3bb18f;
+}
+section .main .right .mid .navlist-one {
+    margin-top: 20px;
+    display: block;
+}
+
+section .main .right .mid .navlist-one img {
+    width: 250px;
+    float: left;
+    margin-right: 35px;
+}
+
+section .main .right .mid .navlist-one h3 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+section .main .right .mid .navlist-one h3:hover{
+    color:#3bb18f;
+}
+section .main .right .mid .navlist-one .box span:nth-child(3) {
+    color: #ddd;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+section .main .right .mid .navlist-one .box:nth-child(1){
+    padding:10px 0 30px 0;
+}
+section .main .right .mid .navlist-one .box {
+    position:relative;
+    padding:30px 0 30px 0;
+    border-bottom:1px solid #ddd;
+}
+section .main .right .mid .navlist-one .box span:nth-child(4) {
+    color: #000;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+section .main .right .mid .navlist-one .box p:nth-child(5) {
+    color: #777;
+    font-size: 14px;
+    width: 836px;
+    margin-bottom: 30px;
+line-height: 25px;
+}
+section .main .right .mid .navlist-one .box span:nth-child(6) {
+    color: #777;
+    font-size: 14px;
+    border-right:1px solid #ddd;
+    padding-right: 20px;
+    margin-right:20px;
+}
+section .main .right .mid .navlist-one .box span:nth-child(6):hover{
+    color:#3bb18f;
+}
+section .main .right .mid .navlist-one .box span:nth-child(6) .iconfont{
+   margin-right: 5px;
+}
+section .main .right .mid .navlist-one .box span:nth-child(7) {
+    color: #777;
+    font-size: 14px;
+}
+section .main .right .mid .navlist-one .box span:nth-child(7):hover{
+    color:#3bb18f;
+}
+section .main .right .mid .navlist-one .box span:nth-child(7) .iconfont{
+    margin-right: 10px;
+}
+section .main .right .mid .navlist-one .box a:nth-child(8){
+   position:absolute;
+   display: block;
+   width: 138px;
+   line-height: 40px;
+   background-color:#3bb18f;
+   color:#fff;
+   font-size: 14px;
+   left:295px;
+   top:295px;
+   text-align: center;
+   border-radius: 5px;
+   margin-bottom: 109px;
+}
+section .main .right .mid .navlist-one .box a:nth-child(8):hover{
+  background-color: #58c7a7;
+}
+section .main .right .mid .navlist-one .box a:nth-child(8) .iconfont{
+    margin-left: 5px;
+}
+section .main .right .mid .navlist-one .box a:nth-child(9){
+   display: block;
+   width: 250px;
+   line-height: 40px;
+   background-color:#3bb18f;
+   color:#fff;
+   font-size: 14px;
+   text-align: center;
+}
+section .main .right .mid .navlist-one .box a:nth-child(9):hover{
+  background-color: #000;
+}
+section .main .right .mid .navlist-one .box:nth-child(3) a:nth-child(9){
+  background-color: #e64b3b;
+}
+section .main .right .mid .navlist-one .box:nth-child(2) a:nth-child(8){
+   top:320px;
+}
+section .main .right .mid .navlist-one .box:nth-child(3) a:nth-child(8){
+   top:320px;
+}section .main .right .mid .navlist-one .box:nth-child(4) a:nth-child(8){
+   top:320px;
+}section .main .right .mid .navlist-one .box:nth-child(5) a:nth-child(8){
+   top:320px;
+}
+section .main .right .mid .navlist-two{
+    /*display: none;*/
+}
+section .main .right .mid .navlist-two .row div img{
+   display: block;
+   width: 250px;
+   height: 365px;
+}
+section .main .right .mid .navlist-two .row div{
+    width: 250px;
+}
+section .main .right .mid .navlist-two .row div .pic{
+    position:relative;
+    margin-bottom: 15px;
+}
+section .main .right .mid .navlist-two .row div .sale{
+    position:absolute;
+    display: block;
+    width: 250px;
+    top:334px;
+    background-color: #3bb18f;
+    line-height: 30px;
+    text-align: center;
+    color:#fff;
+    font-size: 14px;
+}
+section .main .right .mid .navlist-two{
+    margin-top: 30px;
+    padding-bottom:80px;
+    border-bottom:1px solid #ddd;
+}
+section .main .right .mid .navlist-two .row div .word{
+    float:left;
+    width: 140px;
+}
+section .main .right .mid .navlist-two .row div .word a:nth-child(1){
+    display: block;
+    font-size: 16px;
+    color:#000;
+    margin-bottom: 8px;
+}
+section .main .right .mid .navlist-two .row div .word a:nth-child(1):hover{
+    color:#3bb18f;
+}
+section .main .right .mid .navlist-two .row div .word a:nth-child(2){
+    font-size: 14px;
+    display: block;
+    color:#777;
+    margin-bottom: 8px;
+}
+section .main .right .mid .navlist-two .row div .word a:nth-child(2):hover{
+   text-decoration: underline;
+}
+section .main .right .mid .navlist-two .row div .word a:nth-child(3){
+    font-size: 20px;
+    color:#000;
+}
+section .main .right .mid .navlist-two .row div .jiagou{
+    float:right;
+    width: 80px;
+}
+section .main .right .mid .navlist-two .row div .jiagou .iconfont{
+    font-size: 18px;
+    color:#777;
+    margin-left: 15px;
+}
+section .main .right .mid .navlist-two .row div .jiagou .iconfont:hover{
+    color:#3bb18f;
+}
+section .main .right .mid .navlist-two .row div{
+      float:left;
+}
+section .main .right .mid .navlist-two .row>div+div{
+    margin-left: 30px;
+}
+section .main .right .mid .navlist-two .row:nth-child(2){
+    margin-top: 35px;
+}
+section .main .right .mid .navlist-two .row:nth-child(3){
+    margin-top: 35px;
+}
+section .right .right-down>div{
+    float:left;
+ }
+ section .right .right-down>div:last-child{
+    margin-top: 69px;
+    margin-left: 300px;
+    color:#777;
+    font-size: 12px;
+ }
+
+
+
+ .cat .contain{
+    width: 1020px;
+    margin: 0 auto;
+}
+ .cat {
+     padding-bottom: 50px;
+     border-bottom: 1px solid #ddd;
+     background-color: #3bb18f;
+     width: 100%;
+ }
+
+  .cat .left,
+  .cat .midle,
+  .cat .right {
+     float: left;
+     padding: 18px 119px 15px 40px;
+     margin-top: 30px;
+ }
+
+  .cat .left,
+  .cat .midle {
+     border-right: 0.5px solid #ddd;
+ }
+  .cat .pic{
+    margin-top: 5px;
+ }
+  .cat .pic,
+  .cat .text {
+     float: left;
+ }
+
+  .cat .text {
+     margin-left: 10px;
+ }
+
+  .cat .text p:first-child {
+     font-size: 14px;
+     font-weight: bold;
+     color: #fff;
+ }
+
+  .cat .text p:last-child {
+     font-size: 14px;
+     color: #ddd;
+ }
+
+ footer .toTop{
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    line-height: 40px;
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    border-radius:5px;
+    background-color: rgb(178,178,178);
+    text-align: center;
+    color:#fff;
+    display: none;
+}
+footer .toTop .iconfont{
+    font-size: 24px;
+}
+footer .toTop:hover{
+    background-color: #3bb18f;
+}

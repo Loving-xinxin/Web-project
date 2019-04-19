@@ -1,0 +1,306 @@
+header .head-bottom {
+    box-shadow: 0 1px 5px rgb(246, 246, 246);
+}
+
+section .path {
+    margin: 30px 0 0 30px;
+}
+
+section .path .icon-you {
+    font-size: 14px;
+    color: #777;
+}
+
+section .path a {
+    font-size: 14px;
+    color: #777;
+}
+
+section .path a:hover {
+    color: #3bb18f;
+}
+section .shopping{
+    width: 812px;
+    margin:0 auto;
+    padding:100px 100px 100px 200px;
+
+}
+section .shopping>div{
+    float:left;
+    margin:0 auto;
+
+}
+section .shopping>div+div{
+    margin-left: 160px;
+}
+section .shopping>div p:first-child{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    border:1px solid #777;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+section .shopping .left p:first-child{
+    background-color:rgb(59, 177, 143);
+    border:none;
+}
+section .shopping>div p:last-child{
+    margin-top: 15px;
+    text-align: center;
+    color:#000;
+    font-size: 14px;
+    font-weight: bold;
+}
+section .product .left{
+    float:left;
+}
+section .product .left>table{
+border-collapse: collapse;
+}
+section .product .left>table thead tr{
+    border-bottom:1px solid #ddd;
+}
+section .product .left>table thead tr th:first-child{
+    text-align: left;
+    width: 382px;
+}
+section .product .left>table thead tr th:nth-child(2){
+    width: 128px;
+}
+section .product .left>table thead tr th:nth-child(3){
+    width: 100px;
+}
+section .product .left>table thead tr th:nth-child(4){
+    width: 128px;
+}
+section .product .left>table thead tr th{
+    padding-bottom: 20px;
+    color:#000;
+    font-size: 12px;
+}
+section .product .left>table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+section .product .left>table tbody .pic img{
+    float:left;
+    margin: 26px 26px 26px 0;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+section .product .left>table tbody .pic .word{
+    float:left;
+    margin-top: 45px;
+}
+section .product .left>table tbody .pic  .word h4{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+section .product .left>table tbody  .word p{
+    font-size: 12px;
+    line-height: 18px;
+    color:#777;
+}
+section .product .left>table tbody tr .price{
+   text-align: center;
+   margin-bottom: 50px;
+}
+section .product .left>table tbody .price .icon-meiyuan{
+    font-size: 12px;
+    color:#777;
+}
+section .product .left>table tbody tr .price span{
+    color:#777;
+    font-size: 12px;
+}
+section .product .left>table tbody .qty{
+    text-align: center;
+}
+section .product .left>table tbody .qty input{
+    width: 20px;
+    text-align: center;
+}
+section .product .left>table tbody .total{
+    position:relative;
+}
+section .product .left>table tbody .total span{
+    color:#777;
+    font-size: 12px;
+    margin-left: 60px;
+}
+section .product .left>table tbody .total .iconfont{
+    color:#777;
+    font-size: 10px;
+}
+section .product .left>table tbody .total{
+    position:relative;
+}
+section .product .left>table tbody .total .icon-meiyuan{
+   position:absolute;
+   top:72px;
+   left:44px;
+}
+section .product .left>table tbody .total .icon-shanchu{
+    position:absolute;
+    left: 140px;
+    top: 64px;
+}
+section .product .right{
+    float:right;
+    width: 300px;
+}
+section .product .right .top{
+    background-color:#f7f7f7;
+    padding: 20px;
+    width: 270px;
+}
+section .product .right .top ul{
+   padding-left: 0;
+   padding-top: 0;
+}
+section .product .right .top ul li{
+    list-style:none;
+}
+section .product .right .top ul li:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+section .product .right .top ul li:nth-child(2){
+    color: #777d88;
+    line-height: 42px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+section .product .right .top ul li:nth-child(3){
+    font-size: 14px;
+    margin-top: 20px;
+}
+section .product .right .top ul li:nth-child(4){
+    font-size: 14px;
+}
+section .product .right .top ul li:nth-child(3) span:first-child,{
+    float:left;
+}
+section .product .right .top ul li:nth-child(3) span:last-child{
+    float:right;
+}
+section .product .right .top ul li:nth-child(4) span:first-child,{
+    float:left;
+}
+section .product .right .top ul li:nth-child(4) span:last-child{
+    float:right;
+}
+section .product .right .mid a{
+    display: block;
+    width: 310px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-top: 54px;
+}
+section .product .right .mid a:first-child{
+    color:#000;
+    border:1px solid #777;
+    background-color:#fff;
+    transition:all 0.3s;
+}
+section .product .right .mid a:first-child:hover{
+    color:#fff;
+    border:none;
+    background-color: #000;
+}
+section .product .right .mid a:last-child{
+    color:#fff;
+    background-color:#3bb18f;
+    transition:all 0.3s;
+}
+section .product .right .mid a:last-child:hover{
+    background-color: #58c7a7;
+}
+section .product .right .down{
+    margin-top: 20px;
+}
+section .product .right .down a{
+    display: block;
+    color:#000;
+    margin-top: 5px;
+    font-size: 16px;
+}
+section .product .right .down a:last-child.iconfont{
+    font-size: 240px;
+}
+
+
+/*00*/
+section .cat .contain{
+    width: 1020px;
+    margin: 0 auto;
+}
+section .cat {
+     padding-bottom: 50px;
+     border-bottom: 1px solid #ddd;
+     background-color: #3bb18f;
+     width: 100%;
+ }
+
+ section .cat .left,
+ section .cat .midle,
+ section .cat .right {
+     float: left;
+     padding: 18px 147px 15px 40px;
+     margin-top: 30px;
+ }
+
+ section .cat .left,
+ section .cat .midle {
+     border-right: 0.5px solid #ddd;
+ }
+ section .cat .pic{
+    margin-top: 5px;
+ }
+ section .cat .pic,
+ section .cat .text {
+     float: left;
+ }
+
+ section .cat .text {
+     margin-left: 10px;
+ }
+
+ section .cat .text p:first-child {
+     font-size: 10px;
+     color: #ddd;
+ }
+
+ section .cat .text p:last-child {
+     font-size: 10px;
+     color: #ddd;
+ }
+
+ footer .toTop{
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    line-height: 40px;
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    border-radius:5px;
+    background-color: rgb(178,178,178);
+    text-align: center;
+    color:#fff;
+    display: none;
+}
+footer .toTop .iconfont{
+    font-size: 24px;
+}
+footer .toTop:hover{
+    background-color: #3bb18f;
+}

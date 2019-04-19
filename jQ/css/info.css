@@ -1,0 +1,596 @@
+header .head-bottom {
+    box-shadow: 0 1px 5px rgb(246, 246, 246);
+}
+
+section .path {
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+section .path .icon-you {
+    font-size: 14px;
+    color: #777;
+}
+
+section .path a {
+    font-size: 14px;
+    color: #777;
+}
+
+section .path a:hover {
+    color: #3bb18f;
+}
+
+section .mens {
+    padding-bottom: 80px;
+    padding-top: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+section .preview {
+    width: 665px;
+    background: #ddd;
+    height: 700px;
+    float: left;
+    padding-top: 60px;
+}
+
+/* 缩略图部分 */
+section .preview .mini-picture {
+    float: left;
+    width: 635px;
+    height: 882px;
+}
+
+section .preview .swiper-container {
+    width: 635px;
+    height: 882px;
+}
+
+section .preview .swiper-slide img {
+    width: 650px;
+    height: 750px;
+}
+
+section .preview .gallery-thumbs img {
+    width: 250px;
+    height: 170px;
+}
+
+section .preview .swiper-container .swiper-button-prev,
+section .preview .swiper-container .swiper-button-next {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    top: 38%;
+}
+
+section .preview .swiper-container .swiper-button-prev {
+    background-image: url("../images/prevw_01.png");
+    background-repeat: no-repeat;
+}
+
+section .preview .swiper-container .swiper-button-next {
+    background-image: url("../images/nextw_02.png");
+    background-repeat: no-repeat;
+    right: 36px;
+}
+
+section .preview .swiper-container .swiper-button-prev:hover {
+    background-image: url("../images/prevgren004_01.png");
+    background-repeat: no-repeat;
+}
+
+section .preview .swiper-container .swiper-button-next:hover {
+    background-image: url("../images/nextgreen_02.png");
+    background-repeat: no-repeat;
+}
+
+/* 商品详情 */
+section .preview .info {
+    float: left;
+}
+
+/*选择*/
+section .choice {
+    float: left;
+    margin-left: 50px;
+}
+
+section .choice .top h2 {
+    font-size: 34px;
+    color: #000;
+    font-weight: 300;
+}
+
+section .choice .top p:nth-child(2) {
+    width: 430px;
+    font-size: 14px;
+    color: #777;
+    line-height: 30px;
+}
+
+section .choice .top p:nth-child(3) {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+section .choice .top span:nth-child(4) {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+section .choice .top span:nth-child(5) {
+    font-size: 14px;
+    color: #777;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+section .choice .mid ul {
+    padding-left: -40px;
+}
+
+section .choice .mid ul li {
+    list-style: none;
+    padding: 15px 0 15px 0;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #777;
+}
+
+section .choice .mid ul li:nth-child(1) a {
+    color: #777;
+}
+section .choice .mid ul li:nth-child(1) .list{
+    display: none;
+}
+section .choice .mid ul li:nth-child(1) .list p{
+    font-size: 10px;
+}
+section .choice .mid ul li:nth-child(2) .color {
+    text-align: right;
+}
+
+section .choice .mid ul li:nth-child(2) span {
+    float: left;
+}
+
+section .choice .mid ul li:nth-child(2) .color>div {
+    float: right;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+section .choice .mid ul li:nth-child(2) .color>div:nth-child(1) {
+    background-color: #3bb18f;
+}
+
+section .choice .mid ul li:nth-child(2) .color>div:nth-child(2) {
+    background-color: #e5e1de;
+}
+
+section .choice .mid ul li:nth-child(2) .color>div:nth-child(3) {
+    background-color: #000;
+}
+
+section .choice .mid ul li:nth-child(2) .color>div:nth-child(4) {
+    background-color: #777;
+}
+
+section .choice .mid ul li:nth-child(3) span {
+    float: left;
+}
+
+section .choice .mid ul li:nth-child(3) .size {
+    float: right;
+}
+
+section .choice .mid ul li:nth-child(3) .size>span {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+    color:#000;
+}
+/*section .choice .mid ul li:nth-child(3) .size>span:hover{
+    color:#3bb18f;
+}*/
+section .choice .mid ul li:nth-child(4) {
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section .choice .mid ul li:nth-child(4) span {
+    float: left;
+}
+
+section .choice .mid ul li:nth-child(4) .qty {
+    float: right;
+}
+
+section .choice .mid ul li:nth-child(4) .qty input {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+
+section .choice .mid ul li:nth-child(4) .qty .iconfont {
+    color: #777;
+}
+
+section .choice .bottom .button {
+    margin-top: 35px;
+}
+
+section .choice .bottom .button a {
+    display: block;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+section .choice .bottom .button a:first-child {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #3bb18f;
+    float: left;
+    color: #fff;
+}
+
+section .choice .bottom .button a:last-child {
+    /*padding:15px 0 15px 0;*/
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #777;
+    float: left;
+    margin-left: 10px;
+    color: #777;
+}
+
+section .choice .bottom .button a:first-child:hover {
+    background-color: #3bb1df;
+}
+
+section .choice .bottom .button a:last-child:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+section .choice .bottom ul {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+section .choice .bottom ul li {
+    list-style: none;
+    float: left;
+
+    margin-right: 50px;
+}
+
+section .choice .bottom ul li a {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 14px;
+    color: #000;
+}
+
+section .choice .bottom p {
+    font-size: 14px;
+    color: #777;
+}
+
+section .dere .contain {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+section .dere {
+    padding-top: 50px;
+}
+
+section .dere .button {
+    text-align: center;
+}
+
+section .dere .button a:first-child {
+    width: 120px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #777;
+    background-color: #fff;
+    border: 1px solid #3bb18f;
+    text-align: center;
+}
+
+section .dere .button a:last-child {
+    width: 80px;
+    font-size: 14px;
+    color: #777;
+    display: inline-block;
+    line-height: 40px;
+    border-color: #3bb18f;
+    margin-left: 5px;
+    text-align: center;
+}
+
+section .description {
+    margin-top: 30px;
+}
+
+section .description .left,
+section .description ul {
+    float: left;
+}
+
+section .description .left h3 {
+    font-size: 18px;
+    color: #000;
+}
+
+section .description .left p {
+    font-size: 14px;
+    color: #777;
+    width: 390px;
+    line-height: 25px;
+}
+
+section .description ul {
+    margin-top: 45px;
+    width: 350px;
+}
+
+section .description ul li {
+    list-style: none;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+section .description ul li span:first-child {
+    float: left;
+    font-size: 14px;
+    color: #777;
+}
+
+section .description ul li span:last-child {
+    float: right;
+    font-size: 14px;
+    color: #000;
+}
+section .review{
+    display:none;
+}
+section .review .contain {
+    width: 850px;
+}
+
+section .review .box {
+    margin-bottom: 35px;
+}
+
+section .review h3 {
+    margin-bottom: 40px;
+}
+
+section .review .reply .men img {
+    float: left;
+    margin-right: 30px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+section .review .reply .men {
+    position: relative;
+}
+
+section .review .reply .men .star {
+    margin-top: -15px;
+}
+
+section .review .reply .men .star .iconfont {
+    font-size: 18px;
+    color: #3bb18f;
+}
+
+section .review .reply .men span:nth-child(4) {
+    font-size: 10px;
+    color: #777;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+section .review .reply .men p:nth-child(5) {
+    position: absolute;
+    right: 0;
+    top: -15px;
+    font-size: 10px;
+    color: #777;
+}
+
+section .review .reply p {
+    font-size: 14px;
+    color: #777;
+    line-height: 25px;
+    margin-left: 97px;
+}
+
+section .review .reply .xin p {
+    float: left;
+    margin-right: 10px;
+}
+
+section .review .reply .xin p:nth-child(2) {
+    margin-left: 10px;
+}
+
+section .review .reply .xin p .iconfont {
+    margin-right: 5px;
+}
+
+section .review .reply .line {
+    width: 790px;
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 10px;
+    margin-left: 56px;
+}
+
+section .review form input {
+    width: 400px;
+    line-height: 50px;
+}
+
+section .review form input:first-child {
+    margin-right: 20px;
+}
+
+section .review form textarea {
+    resize: none;
+    width: 820px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+section .review .comment {
+    margin-top: 30px;
+}
+
+section .review .comment a {
+    display: block;
+    width: 150px;
+    line-height: 50px;
+    background-color: #3bb18f;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    float: left;
+    margin-right: 70px;
+}
+
+section .review .comment div {
+    float: left;
+}
+
+section .review .comment div span {
+    display: block;
+    color: #000;
+}
+
+section .review .comment div .star span {
+    float: left;
+}
+
+section .review .comment div .star .iconfont {
+    color: #3bb18f;
+    font-size: 28px;
+}
+
+section .review .line {
+    width: 1000px;
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 200px;
+    margin-left: -60px;
+}
+section .swiper{
+    margin-bottom: 50px;
+}
+section .swiper .contain>div {
+    float: left;
+    margin-right: 20px;
+}
+
+section .swiper .pic img {
+    width: 263px;
+    height: 384px;
+}
+section .contain>div .pic-info{
+    margin-top: 30px;
+}
+section .contain>div .pic-info .left{
+    float:left;
+}
+section .contain>div .pic-info .right{
+    float:right;
+}
+section .contain>div .pic-info .left a:nth-child(1){
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 24px;
+    transition: all 0.3s ease-in;
+}
+section .contain>div .pic-info .left a:nth-child(2){
+    color: #9ba3af;
+    font-size: 9px;
+    display: block;
+    line-height: 28px;
+    transition: all 0.3s ease-in;
+}
+section .contain>div .pic-info .left p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+/*cat*/
+section .cat .contain{
+    width: 1020px;
+    margin: 0 auto;
+}
+section .cat {
+     padding-bottom: 50px;
+     border-bottom: 1px solid #ddd;
+     background-color: #3bb18f;
+     width: 100%;
+ }
+
+ section .cat .left,
+ section .cat .midle,
+ section .cat .right {
+     float: left;
+     padding: 18px 147px 15px 40px;
+     margin-top: 30px;
+ }
+
+ section .cat .left,
+ section .cat .midle {
+     border-right: 0.5px solid #ddd;
+ }
+ section .cat .pic{
+    margin-top: 5px;
+ }
+ section .cat .pic,
+ section .cat .text {
+     float: left;
+ }
+
+ section .cat .text {
+     margin-left: 10px;
+ }
+
+ section .cat .text p:first-child {
+     font-size: 10px;
+     color: #ddd;
+ }
+
+ section .cat .text p:last-child {
+     font-size: 10px;
+     color: #ddd;
+ }
